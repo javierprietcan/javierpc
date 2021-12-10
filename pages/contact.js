@@ -34,7 +34,7 @@ const [message, setMessage] = useState('');
    if (res.status === 201) {
      toast('Thank you for contacting me!', { type: 'success' });
    } else {
-     toast('Please re-check your inputs.', { type: 'error' });
+     toast('Please, re-check your inputs.', { type: 'error' });
    }
  };
     
