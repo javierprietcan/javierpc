@@ -3,7 +3,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import { Container } from '@mui/material';
 import { Grid } from '@mui/material';
 import { makeStyles } from '@material-ui/styles';
-// import styles from '../styles/contactForm.module.css';
+import styles from '../styles/contactForm.module.css';
 import Link from 'next/link';
 import TelegramIcon from '@mui/icons-material/Telegram';
 // For handling input states
