@@ -167,12 +167,13 @@ export default function About() {
         },
 
         lan:{
+          
           transition: 'all 2000ms ease',
           '&:hover': {
-            transform: ' skew(180deg) ',
+            transform: ' skew(35deg)  scale(1.3)',
             color: 'teal',
-            transition: 'all 2000ms ease'
-            
+            transition: 'all 2000ms ease',
+            maxWidth:'50%'
           }, 
         },
         icons:{
