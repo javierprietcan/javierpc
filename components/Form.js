@@ -32,7 +32,7 @@ export default function Form() {
     // Form submit handler
     const submitForm = async (e) => {
     e.preventDefault();
-    const res = await fetch('http://localhost:3000/api/submit-form', {
+    const res = await fetch('https://javierpc.herokuapp.com//api/submit-form', {
         method: 'POST',
         body: JSON.stringify({ name, email, purpose, message }),
     });
