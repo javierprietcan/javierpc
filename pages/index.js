@@ -11,6 +11,7 @@ import Typography from '@mui/material/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import emoji from '../public/emoji.svg';
 import check from '../public/checklist.png';
+import palette from '../public/palette.svg';
 import  mongo from '../public/mongodb.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
@@ -246,6 +247,40 @@ export default function Home() {
         </CardContent>
         <CardActions>
         <Button className={classes.button}><Link href="https://ultimate-todo-list-app.herokuapp.com/"><a target="_blank">Enter this Site!</a></Link></Button>
+        </CardActions>
+        </Card>
+        </a>
+        </Link>
+        
+      </Grid>
+
+      <Grid item xs={11} sm={8} md={6} lg={4} xl={2} style={{display: 'flex'}}>
+        <Link href="https://palettecreator.vercel.app/">
+          <a target="_blank" style={{display:'flex', width:'100%'}}>
+        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} style={{ height: '100%' }}>
+        
+       
+        
+        <CardContent>
+        <div className={classes.img}>
+          
+          <Image className={classes.img}
+          src={palette}
+          height={100}
+          width={100}
+          layout='responsive'
+
+          />
+        </div>
+          <Typography gutterBottom variant="h5" component="div" className={classes.text}>
+            Awesomic Palette Creator App
+          </Typography>
+          <Typography variant="body2" color="text.secondary" sx={{textAlign:'center'}}>
+            The most beautiful and useful Color Palette Creator App!
+          </Typography>
+        </CardContent>
+        <CardActions>
+        <Button className={classes.button}><Link href="https://palettecreator.vercel.app/"><a target="_blank">Enter this Site!</a></Link></Button>
         </CardActions>
         </Card>
         </a>
