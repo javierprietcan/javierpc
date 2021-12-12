@@ -1,5 +1,6 @@
 import Image from 'next/image'
-import bee from '../public/bee.svg'
+import bee from '../public/bee.svg';
+import tent from '../public/tent.svg';
 import Grid from '@mui/material/Grid';
 import Link from 'next/link'
 import Card from '@mui/material/Card';
@@ -288,7 +289,39 @@ export default function Home() {
         
       </Grid>
      
-     
+      <Grid item xs={11} sm={8} md={6} lg={4} xl={2} style={{display: 'flex'}}>
+        <Link href="https://campseeker.herokuapp.com/">
+          <a target="_blank" style={{display:'flex', width:'100%'}}>
+        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} style={{ height: '100%' }}>
+        
+       
+        
+        <CardContent>
+        <div className={classes.img}>
+          
+          <Image className={classes.img}
+          src={tent}
+          height={100}
+          width={100}
+          layout='responsive'
+
+          />
+        </div>
+          <Typography gutterBottom variant="h5" component="div" className={classes.text}>
+            CampSeeker App
+          </Typography>
+          <Typography variant="body2" color="text.secondary" sx={{textAlign:'center'}}>
+          A Full-stack campsite hub App built on top of node.js!
+          </Typography>
+        </CardContent>
+        <CardActions>
+        <Button className={classes.button}><Link href="https://campseeker.herokuapp.com/"><a target="_blank">Enter this Site!</a></Link></Button>
+        </CardActions>
+        </Card>
+        </a>
+        </Link>
+        
+      </Grid>
      
       
   </Grid>
