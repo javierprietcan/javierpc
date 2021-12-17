@@ -155,7 +155,7 @@ export default function Home() {
 
 
 
-      <Grid item xs={11} sm={8} md={6} lg={4} xl={2} style={{display: 'flex'}} >
+      <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{display: 'flex'}} >
       <Link href="https://beecoiner-app.herokuapp.com/" >
         <a target="_blank" style={{display:'flex', width:'100%'}}>
         <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} style={{ height: '100%' }}>
@@ -171,7 +171,7 @@ export default function Home() {
           />
           </div>
           <Typography gutterBottom variant="h5" component="div" className={classes.text}>
-            Beecoiner App
+            Beecoiner
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{textAlign:'center'}}>
             An awesomic cryptocurrency searching App!
@@ -186,7 +186,7 @@ export default function Home() {
       
         
       </Grid>
-      <Grid item xs={11} sm={8} md={6} lg={4} xl={2} style={{display: 'flex'}}>
+      <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{display: 'flex'}}>
         <Link href="https://joker-dad.herokuapp.com/">
           <a target="_blank" style={{display:'flex', width:'100%'}}>
         <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} style={{ height: '100%' }} >
@@ -204,7 +204,7 @@ export default function Home() {
         </div>
         
           <Typography gutterBottom variant="h5" component="div" className={classes.text}>
-            Dad's Jokes App
+            Dad's Jokes
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{textAlign:'center'}}>
             A hilarious dad's jokes fetching App!
@@ -221,7 +221,7 @@ export default function Home() {
       </Grid>
       
         
-      <Grid item xs={11} sm={8} md={6} lg={4} xl={2} style={{display: 'flex'}}>
+      <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{display: 'flex'}}>
         <Link href="https://ultimate-todo-list-app.herokuapp.com/">
           <a target="_blank" style={{display:'flex', width:'100%'}}>
         <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} style={{ height: '100%' }}>
@@ -240,7 +240,7 @@ export default function Home() {
           />
         </div>
           <Typography gutterBottom variant="h5" component="div" className={classes.text}>
-            Ultimate To-do List App
+            Ultimate To-do List
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{textAlign:'center'}}>
             The final To-do list App!
@@ -255,7 +255,7 @@ export default function Home() {
         
       </Grid>
 
-      <Grid item xs={11} sm={8} md={6} lg={4} xl={2} style={{display: 'flex'}}>
+      <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{display: 'flex'}}>
         <Link href="https://palettecreator.vercel.app/">
           <a target="_blank" style={{display:'flex', width:'100%'}}>
         <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} style={{ height: '100%' }}>
@@ -274,10 +274,10 @@ export default function Home() {
           />
         </div>
           <Typography gutterBottom variant="h5" component="div" className={classes.text}>
-            Awesomic Palette Creator App
+            Awesomic Palette Creator
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{textAlign:'center'}}>
-            The most beautiful and useful Color Palette Creator App!
+            The most useful Color Palette Creator App!
           </Typography>
         </CardContent>
         <CardActions>
@@ -289,7 +289,7 @@ export default function Home() {
         
       </Grid>
      
-      <Grid item xs={11} sm={8} md={6} lg={4} xl={2} style={{display: 'flex'}}>
+      <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{display: 'flex'}}>
         <Link href="https://campseeker.herokuapp.com/">
           <a target="_blank" style={{display:'flex', width:'100%'}}>
         <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} style={{ height: '100%' }}>
@@ -308,10 +308,10 @@ export default function Home() {
           />
         </div>
           <Typography gutterBottom variant="h5" component="div" className={classes.text}>
-            CampSeeker App
+            CampSeeker
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{textAlign:'center'}}>
-          A Full-stack campsite hub App built on top of node.js!
+          A Full-stack campsite hub App!
           </Typography>
         </CardContent>
         <CardActions>

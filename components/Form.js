@@ -100,7 +100,7 @@ export default function Form() {
               name="message"
               id="message"
               rows="5"
-              placeholder="Hi there!"
+              placeholder="Hi there! I want you on my team!"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               required

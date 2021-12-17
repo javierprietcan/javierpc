@@ -16,7 +16,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import TranslateIcon from '@mui/icons-material/Translate';
 import Skills from '../components/Skills';
 import Image from 'next/image';
-import CV1 from '../public/CV1.jpg';
+import CV2 from '../public/CV2.jpg';
 import DownloadIcon from '@mui/icons-material/Download';
 import { Button } from '@mui/material';
 import  mongo from '../public/mongodb.svg'
@@ -94,6 +94,8 @@ export default function About() {
 
           
         },
+
+      
         cvimg: {
           boxShadow: '2px 4px 6px 3px rgba(255, 105, 135, .3)',
           display: 'block',
@@ -202,11 +204,11 @@ export default function About() {
     
     <Grid  container spacing={{ xs: 0, md: 0, lg:0}} columnSpacing={1} className={classes.grid}  sx={{padding: '2rem 0'}}>
         
-      <Grid item xs={12} sm={12} md={6} lg={6} className={classes.col0} >
+      <Grid item xs={12} sm={12} md={6} lg={6} className={classes.col0} sx={{borderRadius:'50%'}}>
         <Image className={classes.cvimg}
-        src={CV1}
-        // width={450}
-        // height={450}
+        src={CV2}
+        width={350}
+        height={350}
         alt="Picture of the author"
         />
       </Grid>
@@ -225,14 +227,14 @@ export default function About() {
 
 
 
-      <Grid item xs={12} sm={12} md={12} lg={12} className={classes.col0} sx={{margin: '3.5rem 0'}}>
+      <Grid item xs={11} sm={11} md={12} lg={12} className={classes.col0} sx={{margin: '3.5rem 0'}}>
       <Button variant="contained" size= 'large' style={{color:'gold'}} startIcon={<DownloadIcon />}><span><a href='/Javier_Prieto_CV_EN.pdf' download="JavierPC_CV_EN">Download my CV!</a></span></Button>
       
 
       </Grid>
 
 
-      <Grid item xs={12} sm={10} md={6} lg={6} className={classes.col1}>
+      <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col1}>
           <div className='text-div'>
           <h3 className={classes.h3}>Javier <span style={{color:'yellow'}}>Prieto</span></h3>
           <p className={classes.p}>Hello! My name is Javier and I am a 27-year-old Spanish guy based between Córdoba and Seville, in the region of Andalusia.
@@ -243,14 +245,14 @@ export default function About() {
             I have always liked computing, but I never thought of making a living from it until now. How wrong have I been!</p>
           </div>
       </Grid>
-      <Grid item xs={12} sm={10} md={6} lg={6} className={classes.col3}>
+      <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col3}>
         <EmojiPeopleIcon sx={{fontSize: '10rem',color:'teal'}}></EmojiPeopleIcon>      
       </Grid>
-        <Grid item xs={12} sm={10} md={6} lg={6} className={classes.col3}>
+        <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col3}>
         <FlightIcon sx={{fontSize: '10rem',color:'yellow'}} className={classes.plane}></FlightIcon>      
       </Grid>
       
-      <Grid item xs={12} sm={10} md={6} lg={6} className={classes.col2}>
+      <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col2}>
       <div className='text-div'>
           <h3 className={classes.h3}>My <span style={{color:'yellow'}}>Story</span></h3>
           <p className={classes.p}>Currently I work as Technical Writer in the aviation field. I develop Technical documentation for aircrafts, but trust me, I have my feets on the ground!</p>
@@ -260,7 +262,7 @@ export default function About() {
           </div>
       </Grid>
       
-      <Grid item xs={12} sm={10} md={6} lg={6} className={classes.col1}>
+      <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col1}>
       <div className='text-div'>
           <h3 className={classes.h3}>IT <span style={{color:'yellow'}}>Formation</span> <SchoolIcon sx={{fontSize: '1.8rem',color:'black',textAlign:'center'}} /></h3>
           <ul>
@@ -277,19 +279,19 @@ export default function About() {
           </div>
       
       </Grid>
-      <Grid item xs={12} sm={10} md={6} lg={6} className={classes.col3}>
+      <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col3}>
         <SchoolIcon sx={{fontSize: '10rem',color:'brown'}} className={classes.cap}></SchoolIcon>      
         </Grid>
-        <Grid item xs={12} sm={10} md={6} lg={6} className={classes.col3}>
+        <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col3}>
         <ComputerIcon sx={{fontSize: '10rem',color:'orchid'}} className={classes.pc}></ComputerIcon>      
         </Grid>      
         
-        <Grid item xs={12} sm={10} md={6} lg={6} className={classes.col2}>
+        <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col2}>
       <div className='text-div'>
           <h3 className={classes.h3}>E<span style={{color:'yellow'}}>ducation</span> <SchoolIcon sx={{fontSize: '1.8rem',color:'black',textAlign:'center'}} /></h3>
           <ul>
             <li><p className={classes.p}>Bsc in Civil Engineering - University of Granada (Spain) <span style={{color:'blue',float:'right'}}>2012-2017</span></p></li>
-            <li> <p className={classes.p}>Bsc in Civil Engineering - Erasmus + Studies - Instituto Superior de Engenharia do Porto (Oporto, Portugal) -- <span style={{color:'red', textShadow:'none'}}>Final Capstone: 'Forecast of water consumption through Neural Networks'</span><span style={{color:'blue',float:'right'}}>2016-2017</span></p></li>
+            <li> <p className={classes.p}>Bsc in Civil Engineering - Erasmus + Studies - Instituto Superior de Engenharia do Porto (Oporto, Portugal) -- <span style={{fontWeight:'bold',color:'teal', textShadow:'none'}}>Final Capstone: 'Forecast of water consumption through Neural Networks'</span><span style={{color:'blue',float:'right'}}>2016-2017</span></p></li>
             <li> <p className={classes.p}>Msc in Building Information Modeling Management in Civil Engineering, Infrastructures and Geographic Information Systems - Zigurat Global Institute of Technology (Spain) <span style={{color:'blue',float:'right'}}>2018-2019</span></p></li>
           </ul>
           
@@ -298,7 +300,7 @@ export default function About() {
           </div>
       </Grid>
       
-      <Grid item xs={12} sm={10} md={12} lg={12} className={classes.col0} style={{margin:'10px'}}>
+      <Grid item xs={11} sm={11} md={12} lg={12} className={classes.col0} style={{margin:'10px'}}>
       <div className='text-div'>
           <h3 className={classes.h3} >S<span style={{color:'red'}}>kills </span><ComputerIcon sx={{fontSize: '1.8rem',color:'black',textAlign:'center'}}/></h3>   
       </div>
@@ -306,7 +308,7 @@ export default function About() {
       </Grid> 
         <Skills />
         {/* <Grid item xs={12} sm={10} md={6} lg={6} className={classes.col0}></Grid> */}
-        <Grid item xs={12} sm={10} md={6} lg={6} className={classes.col1}>
+        <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col1}>
           <div className='text-div'>
               <h3 className={classes.h3}>Work <span style={{color:'yellow'}}>Experience</span> <WorkIcon sx={{fontSize: '1.8rem',color:'black',textAlign:'center'}} /></h3>
                 <p className={classes.p}>Technical Author and Proofreader at ATEXIS Spain<p style={{color:'blue'}}>   March 2019 - Present</p></p>
@@ -316,18 +318,18 @@ export default function About() {
             </div>
       
       </Grid>
-      <Grid item xs={12} sm={10} md={6} lg={6} className={classes.col3}>
+      <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col3}>
         <WorkIcon sx={{fontSize: '10rem',color:'tan'}}></WorkIcon>      </Grid>
         <Grid item xs={12} sm={10} md={6} lg={6} className={classes.col3}>
         <TranslateIcon sx={{fontSize: '10rem',color:'turquoise'}} className={classes.lan}></TranslateIcon>      </Grid>
-      <Grid item xs={12} sm={10} md={6} lg={6} className={classes.col2}>
+      <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col2}>
       <div className='text-div'>
           <h3 className={classes.h3}>L<span style={{color:'yellow'}}>anguages</span> <TranslateIcon sx={{fontSize: '1.8rem',color:'black',textAlign:'center'}} /></h3>
           <ul>
-            <li><p className={classes.p}>Spanish <span style={{color:'brown',float:'right',margin:'0px 15px'}}>Native</span></p></li>
-            <li><p className={classes.p}>English <span style={{color:'brown',float:'right',margin:'0px 15px'}}>C2 (certified)</span></p></li>
-            <li><p className={classes.p}>Portuguese<span style={{color:'brown',float:'right',margin:'0px 15px'}}>C1 (certified)</span></p></li>
-            <li><p className={classes.p}>French<span style={{color:'brown',float:'right',margin:'0px 15px'}}>B1/B2</span></p></li>
+            <li><p className={classes.p}>Spanish <span style={{color:'red',float:'right',margin:'0px 15px'}}>Native</span></p></li>
+            <li><p className={classes.p}>English <span style={{color:'red',float:'right',margin:'0px 15px'}}>C2 (certified)</span></p></li>
+            <li><p className={classes.p}>Portuguese<span style={{color:'red',float:'right',margin:'0px 15px'}}>C1 (certified)</span></p></li>
+            <li><p className={classes.p}>French<span style={{color:'red',float:'right',margin:'0px 15px'}}>B1/B2</span></p></li>
           </ul>
           
          
