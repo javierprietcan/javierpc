@@ -266,14 +266,14 @@ export default function About() {
       <div className='text-div'>
           <h3 className={classes.h3}>IT <span style={{color:'yellow'}}>Formation</span> <SchoolIcon sx={{fontSize: '1.8rem',color:'black',textAlign:'center'}} /></h3>
           <ul>
-            <li> <p className={classes.p}>Ultimate AWS Certified Solutions Architect Associate 2021 <span style={{color:'blue',float:'right'}}>   Ongoing</span></p></li>
-            <li> <p className={classes.p}>The Advanced Web Developer Bootcamp <span style={{color:'blue',float:'right'}}> 2021</span></p></li>
-            <li><p className={classes.p}>The Modern React Bootcamp <span style={{color:'blue',float:'right'}}>   2021</span></p></li>
-            <li> <p className={classes.p}>The Web Developer Bootcamp 2021<span style={{color:'blue',float:'right'}}>  2021</span></p></li>
-            <li> <p className={classes.p}>Bootstrap 5 from Scratch <span style={{color:'blue',float:'right'}}>  2019</span></p></li>
-            <li> <p className={classes.p}>Web Design: from Scratch to Advanced <span style={{color:'blue',float:'right'}}>  2019</span></p></li>
-            <li> <p className={classes.p}>Deep Learning with Python and Keras <span style={{color:'blue',float:'right'}}>  2018</span></p></li>
-            <li> <p className={classes.p}>Python for Data Science and Machine Learning Bootcamp <span style={{color:'blue',float:'right'}}>  2017</span></p></li>
+            <li> <p className={classes.p}>Ultimate AWS Certified Solutions Architect Associate 2021 <span style={{textShadow:'none',color:'blue',float:'right'}}>   Ongoing</span></p></li>
+            <li> <p className={classes.p}>The Advanced Web Developer Bootcamp <span style={{textShadow:'none',color:'blue',float:'right'}}> 2021</span></p></li>
+            <li><p className={classes.p}>The Modern React Bootcamp <span style={{textShadow:'none',color:'blue',float:'right'}}>   2021</span></p></li>
+            <li> <p className={classes.p}>The Web Developer Bootcamp 2021<span style={{textShadow:'none',color:'blue',float:'right'}}>  2021</span></p></li>
+            <li> <p className={classes.p}>Bootstrap 5 from Scratch <span style={{textShadow:'none',color:'blue',float:'right'}}>  2019</span></p></li>
+            <li> <p className={classes.p}>Web Design: from Scratch to Advanced <span style={{textShadow:'none',color:'blue',float:'right'}}>  2019</span></p></li>
+            <li> <p className={classes.p}>Deep Learning with Python and Keras <span style={{textShadow:'none',color:'blue',float:'right'}}>  2018</span></p></li>
+            <li> <p className={classes.p}>Python for Data Science and Machine Learning Bootcamp <span style={{textShadow:'none',color:'blue',float:'right'}}>  2017</span></p></li>
           </ul>
 
           </div>
@@ -290,9 +290,9 @@ export default function About() {
       <div className='text-div'>
           <h3 className={classes.h3}>E<span style={{color:'yellow'}}>ducation</span> <SchoolIcon sx={{fontSize: '1.8rem',color:'black',textAlign:'center'}} /></h3>
           <ul>
-            <li><p className={classes.p}>Bsc in Civil Engineering - University of Granada (Spain) <span style={{color:'blue',float:'right'}}>2012-2017</span></p></li>
-            <li> <p className={classes.p}>Bsc in Civil Engineering - Erasmus + Studies - Instituto Superior de Engenharia do Porto (Oporto, Portugal) -- <span style={{fontWeight:'bold',color:'teal', textShadow:'none'}}>Final Capstone: 'Forecast of water consumption through Neural Networks'</span><span style={{color:'blue',float:'right'}}>2016-2017</span></p></li>
-            <li> <p className={classes.p}>Msc in Building Information Modeling Management in Civil Engineering, Infrastructures and Geographic Information Systems - Zigurat Global Institute of Technology (Spain) <span style={{color:'blue',float:'right'}}>2018-2019</span></p></li>
+            <li><p className={classes.p}>Bsc in Civil Engineering - University of Granada (Spain) <span style={{textShadow:'none',color:'blue',float:'right'}}>2012-2017</span></p></li>
+            <li> <p className={classes.p}>Bsc in Civil Engineering - Erasmus + Studies - Instituto Superior de Engenharia do Porto (Oporto, Portugal) -- <span style={{textShadow:'none',fontWeight:'bold',color:'teal', textShadow:'none'}}>Final Capstone: 'Forecast of water consumption through Neural Networks'</span><span style={{textShadow:'none',color:'blue',float:'right'}}>2016-2017</span></p></li>
+            <li> <p className={classes.p}>Msc in Building Information Modeling Management in Civil Engineering, Infrastructures and Geographic Information Systems - Zigurat Global Institute of Technology (Spain) <span style={{textShadow:'none',color:'blue',float:'right'}}>2018-2019</span></p></li>
           </ul>
           
          
@@ -311,9 +311,9 @@ export default function About() {
         <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col1}>
           <div className='text-div'>
               <h3 className={classes.h3}>Work <span style={{color:'yellow'}}>Experience</span> <WorkIcon sx={{fontSize: '1.8rem',color:'black',textAlign:'center'}} /></h3>
-                <p className={classes.p}>Technical Author and Proofreader at ATEXIS Spain<p style={{color:'blue'}}>   March 2019 - Present</p></p>
-                <p className={classes.p}>Technical Author at ATEXIS France<p style={{color:'blue'}}> March 2019 - July 2019</p></p>
-                <p className={classes.p}>GIS Technician Internship at Ferrovial Servicios (Madrid, Spain) <p style={{color:'blue'}}> June 2018 - December 2018</p></p>
+                <p className={classes.p}>Technical Author and Proofreader at ATEXIS Spain<p style={{textShadow:'none',color:'blue'}}>   March 2019 - Present</p></p>
+                <p className={classes.p}>Technical Author at ATEXIS France<p style={{textShadow:'none',color:'blue'}}> March 2019 - July 2019</p></p>
+                <p className={classes.p}>GIS Technician Internship at Ferrovial Servicios (Madrid, Spain) <p style={{textShadow:'none',color:'blue'}}> June 2018 - December 2018</p></p>
          
             </div>
       
@@ -326,10 +326,10 @@ export default function About() {
       <div className='text-div'>
           <h3 className={classes.h3}>L<span style={{color:'yellow'}}>anguages</span> <TranslateIcon sx={{fontSize: '1.8rem',color:'black',textAlign:'center'}} /></h3>
           <ul>
-            <li><p className={classes.p}>Spanish <span style={{color:'red',float:'right',margin:'0px 15px'}}>Native</span></p></li>
-            <li><p className={classes.p}>English <span style={{color:'red',float:'right',margin:'0px 15px'}}>C2 (certified)</span></p></li>
-            <li><p className={classes.p}>Portuguese<span style={{color:'red',float:'right',margin:'0px 15px'}}>C1 (certified)</span></p></li>
-            <li><p className={classes.p}>French<span style={{color:'red',float:'right',margin:'0px 15px'}}>B1/B2</span></p></li>
+            <li><p className={classes.p}>Spanish <span style={{textShadow:'none',color:'brown',float:'right',margin:'0px 15px'}}>Native</span></p></li>
+            <li><p className={classes.p}>English <span style={{textShadow:'none',color:'brown',float:'right',margin:'0px 15px'}}>C2 (certified)</span></p></li>
+            <li><p className={classes.p}>Portuguese<span style={{textShadow:'none',color:'brown',float:'right',margin:'0px 15px'}}>C1 (certified)</span></p></li>
+            <li><p className={classes.p}>French<span style={{textShadow:'none',color:'brown',float:'right',margin:'0px 15px'}}>B1/B2</span></p></li>
           </ul>
           
          

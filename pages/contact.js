@@ -153,7 +153,7 @@ export default function Contact() {
         </div>
         </Grid>
         
-        <Grid item xs={12} sm={12} md={10} lg={8} sx={{height:'20rem'}}></Grid>
+        <Grid item xs={12} sm={12} md={10} lg={8} sx={{height:'25rem'}}></Grid>
         <Form />
       <Grid item xs={12} sm={12} md={10} lg={8} sx={{height:'150px'}}></Grid>
       </Grid>

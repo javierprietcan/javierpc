@@ -29,6 +29,8 @@
     font-size: 0.9rem;
     margin-bottom: 0.5rem;
     color: #334155;
+    text-shadow: none;
+
   }
   .form input,
   .form select,

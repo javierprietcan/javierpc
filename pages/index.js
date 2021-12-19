@@ -170,15 +170,18 @@ export default function Home() {
           layout='responsive'
           />
           </div>
+         
           <Typography gutterBottom variant="h5" component="div" className={classes.text}>
             Beecoiner
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{textAlign:'center'}}>
             An awesomic cryptocurrency searching App!
           </Typography>
+        
         </CardContent>
         <CardActions>
         <Button className={classes.button}><Link href="https://beecoiner-app.herokuapp.com/"><a target="_blank">Enter this Site!</a></Link></Button>
+        
         </CardActions>
         </Card>
         </a>
@@ -196,9 +199,9 @@ export default function Home() {
         <CardContent>
         <div className={classes.img}><Image className={classes.img}
           src={emoji}
-          // height={250}
-          // width={250}
-          // layout='responsive'
+          height={250}
+          width={250}
+          layout='responsive'
 
           />
         </div>
@@ -277,7 +280,7 @@ export default function Home() {
             Awesomic Palette Creator
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{textAlign:'center'}}>
-            The most useful Color Palette Creator App!
+            An amazing Color Palette Creator App!
           </Typography>
         </CardContent>
         <CardActions>
