@@ -27,6 +27,7 @@ export default function Skills() {
             'Material UI': 75,
             'Bootsrap': 90,
             'JSX': 95, 
+            'Sass': 85,
             'Chart.js': 85
          
         } ,
@@ -37,6 +38,7 @@ export default function Skills() {
           'MongoDB': 75,
           'Mongoose': 75,
           'Javascript': 85,
+          'MySQL': 95
         },
         projects: {
           'Scrum':95,

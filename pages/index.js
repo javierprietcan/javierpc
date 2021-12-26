@@ -22,6 +22,7 @@ import { faJs } from '@fortawesome/free-brands-svg-icons';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
 import { faAws } from '@fortawesome/free-brands-svg-icons';
 import vsc from '../public/vsc.svg';
+import mysql from '../public/mysql.svg';
 import { faPython } from '@fortawesome/free-brands-svg-icons';
 import { faGitAlt } from '@fortawesome/free-brands-svg-icons';
 
@@ -151,6 +152,8 @@ export default function Home() {
         <FontAwesomeIcon className={classes.icons} style={{color: '#F0DB4F'}} icon={faPython} />
         <Image className={classes.icons} src={mongo} height={208} width={110}/>
         <Image className={classes.icons} src={vsc} height={208} width={110}/>
+        <Image className={classes.icons} src={mysql} height={208} width={220}/>
+
       </Grid>
 
 

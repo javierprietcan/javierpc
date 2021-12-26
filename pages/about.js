@@ -28,6 +28,7 @@ import { faJs } from '@fortawesome/free-brands-svg-icons';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
 import { faAws } from '@fortawesome/free-brands-svg-icons';
 import vsc from '../public/vsc.svg';
+import mysql from '../public/mysql.svg';
 import { faPython } from '@fortawesome/free-brands-svg-icons';
 import { faGitAlt } from '@fortawesome/free-brands-svg-icons';
 
@@ -223,6 +224,8 @@ export default function About() {
         <FontAwesomeIcon className={classes.icons} style={{color: '#306998'}} icon={faPython} />
         <Image className={classes.icons} src={mongo} height={208} width={110}/>
         <Image className={classes.icons} src={vsc} height={208} width={110}/>
+        <Image className={classes.icons} src={mysql} height={208} width={220}/>
+
       </Grid>
 
 
@@ -267,6 +270,7 @@ export default function About() {
           <h3 className={classes.h3}>IT <span style={{color:'yellow'}}>Formation</span> <SchoolIcon sx={{fontSize: '1.8rem',color:'black',textAlign:'center'}} /></h3>
           <ul>
             <li> <p className={classes.p}>Ultimate AWS Certified Solutions Architect Associate 2021 <span style={{textShadow:'none',color:'blue',float:'right'}}>   Ongoing</span></p></li>
+            <li> <p className={classes.p}>The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert <span style={{textShadow:'none',color:'blue',float:'right'}}> 2021</span></p></li>
             <li> <p className={classes.p}>The Advanced Web Developer Bootcamp <span style={{textShadow:'none',color:'blue',float:'right'}}> 2021</span></p></li>
             <li><p className={classes.p}>The Modern React Bootcamp <span style={{textShadow:'none',color:'blue',float:'right'}}>   2021</span></p></li>
             <li> <p className={classes.p}>The Web Developer Bootcamp 2021<span style={{textShadow:'none',color:'blue',float:'right'}}>  2021</span></p></li>
