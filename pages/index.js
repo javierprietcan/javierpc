@@ -161,7 +161,7 @@ export default function Home() {
       <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{display: 'flex'}} >
       <Link href="https://beecoiner-app.herokuapp.com/" >
         <a target="_blank" style={{display:'flex', width:'100%'}}>
-        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} style={{ height: '100%' }}>
+        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} styles={{ height: '100%' }}>
         
          
         
@@ -195,7 +195,7 @@ export default function Home() {
       <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{display: 'flex'}}>
         <Link href="https://joker-dad.herokuapp.com/">
           <a target="_blank" style={{display:'flex', width:'100%'}}>
-        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} style={{ height: '100%' }} >
+        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} styles={{ height: '100%' }} >
         
          
         
@@ -230,7 +230,7 @@ export default function Home() {
       <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{display: 'flex'}}>
         <Link href="https://ultimate-todo-list-app.herokuapp.com/">
           <a target="_blank" style={{display:'flex', width:'100%'}}>
-        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} style={{ height: '100%' }}>
+        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} styles={{ height: '100%' }}>
         
        
         
@@ -264,7 +264,7 @@ export default function Home() {
       <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{display: 'flex'}}>
         <Link href="https://palettecreator.vercel.app/">
           <a target="_blank" style={{display:'flex', width:'100%'}}>
-        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} style={{ height: '100%' }}>
+        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} styles={{ height: '100%' }}>
         
        
         
@@ -298,7 +298,7 @@ export default function Home() {
       <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{display: 'flex'}}>
         <Link href="https://campseeker.herokuapp.com/">
           <a target="_blank" style={{display:'flex', width:'100%'}}>
-        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} style={{ height: '100%' }}>
+        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} styles={{ height: '100%' }}>
         
        
         
