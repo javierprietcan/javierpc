@@ -240,9 +240,9 @@ export default function About() {
       <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col1}>
           <div className='text-div'>
           <h3 className={classes.h3}>Javier <span style={{color:'yellow'}}>Prieto</span></h3>
-          <p className={classes.p}>Hello! My name is Javier and I am a 27-year-old Spanish guy based between Córdoba and Seville, in the region of Andalusia.
+          <p className={classes.p}>Hello! My name is Javier and I am a 28-year-old Spanish guy natural from Córdoba, in the marvellous region of Andalusia.
           And before you ask: yes, I do like tapas a lot! <span></span><TapasIcon sx={{fontSize: '1.8rem',color:'brown',textAlign:'center'}}/></p> 
-          
+          <p className={classes.p}>I am living and working in The Netherlands since January 2022, for a new adventure!</p>
           <p className={classes.p}>I consider myself a self-taught amateur Software Engineer
             looking forward to entering the IT sector!
             I have always liked computing, but I never thought of making a living from it until now. How wrong have I been!</p>

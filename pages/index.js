@@ -158,39 +158,105 @@ export default function Home() {
 
 
 
-        <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }} >
-          <Link href="https://beecoiner-app.vercel.app/" >
+        <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }}>
+          <Link href="https://campseeker.vercel.app/">
             <a target="_blank" style={{ display: 'flex', width: '100%' }}>
               <Card style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }} className={classes.CardStyles} styles={{ height: '100%' }}>
 
 
 
-                <CardContent >
-                  <div className={classes.img}><Image
-                    src={bee}
-                    height={250}
-                    width={250}
-                    layout='responsive'
-                  />
-                  </div>
+                <CardContent>
+                  <div className={classes.img}>
 
+                    <Image className={classes.img}
+                      src={tent}
+                      height={200}
+                      width={200}
+                      layout='responsive'
+
+                    />
+                  </div>
                   <Typography gutterBottom variant="h5" component="div" className={classes.text}>
-                    Beecoiner
+                    CampSeeker
                   </Typography>
                   <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
-                    An awesomic cryptocurrency searching App!
+                    A Full-stack campsite hub App!
                   </Typography>
-
                 </CardContent>
                 <CardActions>
-                  <Button className={classes.button}><Link href="https://beecoiner-app.vercel.app/"><a target="_blank">Enter this Site!</a></Link></Button>
-
+                  <Button className={classes.button}><Link href="https://campseeker.vercel.app/"><a target="_blank">Enter this Site!</a></Link></Button>
                 </CardActions>
               </Card>
             </a>
           </Link>
+          <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }} >
+            <Link href="https://beecoiner-app.vercel.app/" >
+              <a target="_blank" style={{ display: 'flex', width: '100%' }}>
+                <Card style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }} className={classes.CardStyles} styles={{ height: '100%' }}>
 
 
+
+                  <CardContent >
+                    <div className={classes.img}><Image
+                      src={bee}
+                      height={250}
+                      width={250}
+                      layout='responsive'
+                    />
+                    </div>
+
+                    <Typography gutterBottom variant="h5" component="div" className={classes.text}>
+                      Beecoiner
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
+                      An awesomic cryptocurrency searching App!
+                    </Typography>
+
+                  </CardContent>
+                  <CardActions>
+                    <Button className={classes.button}><Link href="https://beecoiner-app.vercel.app/"><a target="_blank">Enter this Site!</a></Link></Button>
+
+                  </CardActions>
+                </Card>
+              </a>
+            </Link>
+
+
+          </Grid>
+
+          <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }}>
+            <Link href="https://palettecreator.vercel.app/">
+              <a target="_blank" style={{ display: 'flex', width: '100%' }}>
+                <Card style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }} className={classes.CardStyles} styles={{ height: '100%' }}>
+
+
+
+                  <CardContent>
+                    <div className={classes.img}>
+
+                      <Image className={classes.img}
+                        src={palette}
+                        height={200}
+                        width={200}
+                        layout='responsive'
+
+                      />
+                    </div>
+                    <Typography gutterBottom variant="h5" component="div" className={classes.text}>
+                      Awesomic Palette Creator
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
+                      An amazing Color Palette Creator App!
+                    </Typography>
+                  </CardContent>
+                  <CardActions>
+                    <Button className={classes.button}><Link href="https://palettecreator.vercel.app/"><a target="_blank">Enter this Site!</a></Link></Button>
+                  </CardActions>
+                </Card>
+              </a>
+            </Link>
+
+          </Grid>
         </Grid>
         <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }}>
           <Link href="https://dad-jokes-6k0kc62yn-javierprietcan.vercel.app/">
@@ -223,40 +289,6 @@ export default function Home() {
             </a>
           </Link>
 
-
-        </Grid>
-
-        <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }}>
-          <Link href="https://campseeker.vercel.app/">
-            <a target="_blank" style={{ display: 'flex', width: '100%' }}>
-              <Card style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }} className={classes.CardStyles} styles={{ height: '100%' }}>
-
-
-
-                <CardContent>
-                  <div className={classes.img}>
-
-                    <Image className={classes.img}
-                      src={tent}
-                      height={200}
-                      width={200}
-                      layout='responsive'
-
-                    />
-                  </div>
-                  <Typography gutterBottom variant="h5" component="div" className={classes.text}>
-                    CampSeeker
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
-                    A Full-stack campsite hub App!
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                  <Button className={classes.button}><Link href="https://campseeker.vercel.app/"><a target="_blank">Enter this Site!</a></Link></Button>
-                </CardActions>
-              </Card>
-            </a>
-          </Link>
 
         </Grid>
 
@@ -294,41 +326,9 @@ export default function Home() {
 
         </Grid>
 
-        <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }}>
-          <Link href="https://palettecreator.vercel.app/">
-            <a target="_blank" style={{ display: 'flex', width: '100%' }}>
-              <Card style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }} className={classes.CardStyles} styles={{ height: '100%' }}>
 
 
 
-                <CardContent>
-                  <div className={classes.img}>
-
-                    <Image className={classes.img}
-                      src={palette}
-                      height={200}
-                      width={200}
-                      layout='responsive'
-
-                    />
-                  </div>
-                  <Typography gutterBottom variant="h5" component="div" className={classes.text}>
-                    Awesomic Palette Creator
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
-                    An amazing Color Palette Creator App!
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                  <Button className={classes.button}><Link href="https://palettecreator.vercel.app/"><a target="_blank">Enter this Site!</a></Link></Button>
-                </CardActions>
-              </Card>
-            </a>
-          </Link>
-
-        </Grid>
-
-        
 
 
       </Grid>
