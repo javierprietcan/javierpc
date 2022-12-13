@@ -102,8 +102,8 @@ export default function About() {
           display: 'block',
           marginLeft: 'auto',
           marginRight: 'auto',
-          width: '50%',
-          borderRadius:'50%',
+          width: '30%',
+          borderRadius:'30%',
           transition: 'all 1000ms ease',
           '&:hover': {
             transform: 'rotate(360deg) scale(1.1)',
@@ -243,7 +243,7 @@ export default function About() {
           <p className={classes.p}>Hello! My name is Javier and I am a 27-year-old Spanish guy based between Córdoba and Seville, in the region of Andalusia.
           And before you ask: yes, I do like tapas a lot! <span></span><TapasIcon sx={{fontSize: '1.8rem',color:'brown',textAlign:'center'}}/></p> 
           
-          <p className={classes.p}>I consider myself a self-taught amateur web developer
+          <p className={classes.p}>I consider myself a self-taught amateur Software Engineer
             looking forward to entering the IT sector!
             I have always liked computing, but I never thought of making a living from it until now. How wrong have I been!</p>
           </div>
@@ -258,7 +258,9 @@ export default function About() {
       <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col2}>
       <div className='text-div'>
           <h3 className={classes.h3}>My <span style={{color:'yellow'}}>Story</span></h3>
-          <p className={classes.p}>Currently I work as Technical Writer in the aviation field. I develop Technical documentation for aircrafts, but trust me, I have my feets on the ground!</p>
+          <p className={classes.p}>Currently I am living and working in The Netherlands, as a Technical Author for ASML, the number one High-Tech company devoted to the creation of machines
+          for Chip-making creation.</p>
+          <p className={classes.p}>Until March 2022 I worked as Technical Writer in the aviation field. I developed Technical documentation for aircrafts, but trust me, I have my feets on the ground!</p>
           <p className={classes.p}> Although I work with a computer as a daily basis, you might think this has nothing to do with Web Developing...and you'd be right!</p>
           <p className={classes.p}>Anyway, I have always been learning programming and developing my own apps for University projects, but especially for
           personal projects. Some years ago, I realised I'd rather work on something I really like and started to enroll in many developing courses!</p>
@@ -297,6 +299,7 @@ export default function About() {
             <li><p className={classes.p}>Bsc in Civil Engineering - University of Granada (Spain) <span style={{textShadow:'none',color:'blue',float:'right'}}>2012-2017</span></p></li>
             <li> <p className={classes.p}>Bsc in Civil Engineering - Erasmus + Studies - Instituto Superior de Engenharia do Porto (Oporto, Portugal) -- <span style={{textShadow:'none',fontWeight:'bold',color:'teal', textShadow:'none'}}>Final Capstone: 'Forecast of water consumption through Neural Networks'</span><span style={{textShadow:'none',color:'blue',float:'right'}}>2016-2017</span></p></li>
             <li> <p className={classes.p}>Msc in Building Information Modeling Management in Civil Engineering, Infrastructures and Geographic Information Systems - Zigurat Global Institute of Technology (Spain) <span style={{textShadow:'none',color:'blue',float:'right'}}>2018-2019</span></p></li>
+            <li> <p className={classes.p}>Vocational Training in Web Developing and Software Engineering (Spain) <span style={{textShadow:'none',color:'blue',float:'right'}}>Jan 2022 - present</span></p></li>
           </ul>
           
          
@@ -315,8 +318,7 @@ export default function About() {
         <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col1}>
           <div className='text-div'>
               <h3 className={classes.h3}>Work <span style={{color:'yellow'}}>Experience</span> <WorkIcon sx={{fontSize: '1.8rem',color:'black',textAlign:'center'}} /></h3>
-              <p className={classes.p}>Freelance Web Developer<p style={{textShadow:'none',color:'blue'}}>   2018- Present</p></p>
-
+              <p className={classes.p}>Technical Author at ASM / WEB Eindhoven<p style={{textShadow:'none',color:'blue'}}>   March 2022 - Present</p></p>
                 <p className={classes.p}>Technical Author and Proofreader at ATEXIS Spain<p style={{textShadow:'none',color:'blue'}}>   March 2019 - Present</p></p>
                 <p className={classes.p}>Technical Author at ATEXIS France<p style={{textShadow:'none',color:'blue'}}>   March 2019 - July 2019</p></p>
                 <p className={classes.p}>GIS Technician Internship at Ferrovial Servicios (Madrid, Spain) <p style={{textShadow:'none',color:'blue'}}> June 2018 - December 2018</p></p>

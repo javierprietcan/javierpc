@@ -32,6 +32,7 @@ export default function Skills() {
          
         } ,
         backEnd: {
+          'PHP':95,
           'Node.js':65,
           'Axios': 95, 
           'Express': 80, 

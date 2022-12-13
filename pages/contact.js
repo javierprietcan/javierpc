@@ -117,7 +117,7 @@ export default function Contact() {
       
       const classes = useStyles();
 
-      const text = "Are you interested in my profile? Are you looking for a new web developer to be part of your team? Or perhaps you're a IT recruiter? Otherwise, are you just interested in my portfolio and want to know more about it or about me? In any case, you can reach me out through the platforms below!"
+      const text = "Are you interested in my profile? Are you looking for a new Software Engineer to be part of your team? Or perhaps you're a IT recruiter? Otherwise, are you just interested in my portfolio and want to know more about it or about me? In any case, you can reach me out through the platforms below!"
       
       
     return (
