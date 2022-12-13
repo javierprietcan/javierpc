@@ -159,7 +159,7 @@ export default function Home() {
 
 
         <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }} >
-          <Link href="https://beecoiner-app.herokuapp.com/" >
+          <Link href="https://beecoiner-app.vercel.app/" >
             <a target="_blank" style={{ display: 'flex', width: '100%' }}>
               <Card style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }} className={classes.CardStyles} styles={{ height: '100%' }}>
 
@@ -183,7 +183,7 @@ export default function Home() {
 
                 </CardContent>
                 <CardActions>
-                  <Button className={classes.button}><Link href="https://beecoiner-app.herokuapp.com/"><a target="_blank">Enter this Site!</a></Link></Button>
+                  <Button className={classes.button}><Link href="https://beecoiner-app.vercel.app/"><a target="_blank">Enter this Site!</a></Link></Button>
 
                 </CardActions>
               </Card>
@@ -193,7 +193,7 @@ export default function Home() {
 
         </Grid>
         <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }}>
-          <Link href="https://joker-dad.herokuapp.com/">
+          <Link href="https://dad-jokes-6k0kc62yn-javierprietcan.vercel.app/">
             <a target="_blank" style={{ display: 'flex', width: '100%' }}>
               <Card style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }} className={classes.CardStyles} styles={{ height: '100%' }} >
 
@@ -210,14 +210,14 @@ export default function Home() {
                   </div>
 
                   <Typography gutterBottom variant="h5" component="div" className={classes.text}>
-                    Dad's Jokes
+                    Dad Jokes
                   </Typography>
                   <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
                     A hilarious dad's jokes fetching App!
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button className={classes.button}><Link href="https://joker-dad.herokuapp.com/"><a target="_blank">Enter this Site!</a></Link></Button>
+                  <Button className={classes.button}><Link href="https://dad-jokes-6k0kc62yn-javierprietcan.vercel.app/"><a target="_blank">Enter this Site!</a></Link></Button>
                 </CardActions>
               </Card>
             </a>
@@ -226,9 +226,42 @@ export default function Home() {
 
         </Grid>
 
+        <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }}>
+          <Link href="https://campseeker.vercel.app/">
+            <a target="_blank" style={{ display: 'flex', width: '100%' }}>
+              <Card style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }} className={classes.CardStyles} styles={{ height: '100%' }}>
+
+
+
+                <CardContent>
+                  <div className={classes.img}>
+
+                    <Image className={classes.img}
+                      src={tent}
+                      height={200}
+                      width={200}
+                      layout='responsive'
+
+                    />
+                  </div>
+                  <Typography gutterBottom variant="h5" component="div" className={classes.text}>
+                    CampSeeker
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
+                    A Full-stack campsite hub App!
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button className={classes.button}><Link href="https://campseeker.vercel.app/"><a target="_blank">Enter this Site!</a></Link></Button>
+                </CardActions>
+              </Card>
+            </a>
+          </Link>
+
+        </Grid>
 
         <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }}>
-          <Link href="https://ultimate-todo-list-app.herokuapp.com/">
+          <Link href="https://vercel.com/javierprietcan/todo-list/DqXwL57pKfF9Jtbrjw1VhZp3Vfyh">
             <a target="_blank" style={{ display: 'flex', width: '100%' }}>
               <Card style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }} className={classes.CardStyles} styles={{ height: '100%' }}>
 
@@ -253,7 +286,7 @@ export default function Home() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button className={classes.button}><Link href="https://ultimate-todo-list-app.herokuapp.com/"><a target="_blank">Enter this Site!</a></Link></Button>
+                  <Button className={classes.button}><Link href="https://vercel.com/javierprietcan/todo-list/DqXwL57pKfF9Jtbrjw1VhZp3Vfyh"><a target="_blank">Enter this Site!</a></Link></Button>
                 </CardActions>
               </Card>
             </a>
@@ -295,39 +328,7 @@ export default function Home() {
 
         </Grid>
 
-        <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }}>
-          <Link href="https://campseeker.herokuapp.com/">
-            <a target="_blank" style={{ display: 'flex', width: '100%' }}>
-              <Card style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }} className={classes.CardStyles} styles={{ height: '100%' }}>
-
-
-
-                <CardContent>
-                  <div className={classes.img}>
-
-                    <Image className={classes.img}
-                      src={tent}
-                      height={200}
-                      width={200}
-                      layout='responsive'
-
-                    />
-                  </div>
-                  <Typography gutterBottom variant="h5" component="div" className={classes.text}>
-                    CampSeeker
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
-                    A Full-stack campsite hub App!
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                  <Button className={classes.button}><Link href="https://campseeker.herokuapp.com/"><a target="_blank">Enter this Site!</a></Link></Button>
-                </CardActions>
-              </Card>
-            </a>
-          </Link>
-
-        </Grid>
+        
 
 
       </Grid>
