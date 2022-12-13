@@ -36,7 +36,7 @@ export default function Footer() {
     return (
         <Grid  container spacing={{ xs: 0, md: 0, lg:0}} columnSpacing={1}  >
             <Grid item xs={12} sm={12} md={12} lg={12} className={classes.footer}>
-                <span style={{ fontSize: '1.1rem', color:'white', textAlign:'center'}}>© 2022</span>
+                <span style={{ fontSize: '1.1rem', color:'white', textAlign:'center'}}>© 2023</span>
                 <Link href='https://www.linkedin.com/in/javierprietocano/'><a target="_blank"><LinkedInIcon className={classes.icon} style={{ fontSize: '2rem', color:'white',
                     float:'right',padding:'0 0.5rem' }}/> </a></Link>
                 <Link href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=javierprietcan@gmail.com&body=Hi Javier! I'm interested in your profile!"><a target="_blank"> <EmailIcon className={classes.icon} style={{ fontSize: '2rem', color:'white', float:'right',padding:'0 0.5rem' }}/></a></Link>

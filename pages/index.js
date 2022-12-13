@@ -13,7 +13,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import emoji from '../public/emoji.svg';
 import check from '../public/checklist.png';
 import palette from '../public/palette.svg';
-import  mongo from '../public/mongodb.svg'
+import mongo from '../public/mongodb.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { faCss3 } from '@fortawesome/free-brands-svg-icons';
@@ -29,7 +29,7 @@ import { faGitAlt } from '@fortawesome/free-brands-svg-icons';
 
 
 export default function Home() {
-  
+
 
 
 
@@ -45,12 +45,12 @@ export default function Home() {
       zIndex: 10,
       transition: 'all 1000ms ease',
       '&:hover': {
-        backgroundColor:'rgba(255,155,100,0.8)',
+        backgroundColor: 'rgba(255,155,100,0.8)',
         borderColor: 'white',
         transform: 'scale(1.2)',
         transition: 'all 1000ms ease'
-        
-      }, 
+
+      },
     },
     text: {
       display: 'flex',
@@ -70,21 +70,21 @@ export default function Home() {
       // justifyContent: 'space-between',
       // alignItems: 'center',
       // alignContent: 'center',
-      
+
       backgroundColor: 'rgba(255,155,100,0.7)',
       border: '2px solid',
       maxHeight: '25em',
-      minHeight:'25em',
+      minHeight: '25em',
       width: '100%',
       height: '100%',
       transition: 'all 1000ms ease',
       '&:hover': {
-        backgroundColor:'rgba(255,155,100,0.8)',
+        backgroundColor: 'rgba(255,155,100,0.8)',
         borderColor: 'white',
-        cursor:'pointer'
-      }, 
-    }, 
-    
+        cursor: 'pointer'
+      },
+    },
+
     img: {
       display: 'block',
       marginLeft: 'auto',
@@ -96,241 +96,241 @@ export default function Home() {
       '&:hover': {
         transform: 'rotate(360deg)',
         transition: 'all 1000ms'
-      }, 
-     
-      
+      },
+
+
     },
-    grid:{
-      alignItems:"center",
-      alignContent:'center',
-      justifyContent:"center",
+    grid: {
+      alignItems: "center",
+      alignContent: 'center',
+      justifyContent: "center",
       minHeight: '100vh',
       margin: '2rem 0px 4.5rem 0px',
     },
-    icons:{
-      fontSize:'5rem',
+    icons: {
+      fontSize: '5rem',
       padding: '4rem 2rem',
       transition: 'all 2000ms ease',
       '&:hover': {
         transform: 'scale(1.2)',
         transition: 'all 1000ms ease',
-      }, 
+      },
     },
 
     col0: {
-      
+
       color: 'white',
       justifyContent: 'center',
-      alignItems:'center',
-      borderRadius:'30px',
+      alignItems: 'center',
+      borderRadius: '30px',
       textAlign: 'center',
       padding: '10px 20px',
 
-      
+
     },
 
 
   });
-  
+
   const classes = useStyles();
 
- 
-  
+
+
   return (
     <>
-    
-    <Grid  container spacing={{ xs: 0, md: 0, lg:0}}  className={classes.grid}  >
-    
-    <Grid item xs={12} sm={12} md={12} lg={12} className={classes.col0} >
-        <FontAwesomeIcon className={classes.icons} style={{color:'#e34c26'}} icon={faHtml5} />
-        <FontAwesomeIcon className={classes.icons} style={{color:'blue'}} icon={faCss3} />
-        <FontAwesomeIcon className={classes.icons} style={{color: 'green'}} icon={faNodeJs} />
-        <FontAwesomeIcon className={classes.icons} style={{color: '#F0DB4F'}} icon={faJs} />
-        <FontAwesomeIcon className={classes.icons} style={{color: '#61DBFB'}} icon={faReact} />
-        <FontAwesomeIcon className={classes.icons} style={{color: '#F1502F'}} icon={faGitAlt} />
-        <FontAwesomeIcon className={classes.icons} style={{color: '#FF9900'}} icon={faAws} />
-        <FontAwesomeIcon className={classes.icons} style={{color: '#F0DB4F'}} icon={faPython} />
-        <Image className={classes.icons} src={mongo} height={208} width={110}/>
-        <Image className={classes.icons} src={vsc} height={208} width={110}/>
-        <Image className={classes.icons} src={mysql} height={208} width={220}/>
+
+      <Grid container spacing={{ xs: 0, md: 0, lg: 0 }} className={classes.grid}  >
+
+        <Grid item xs={12} sm={12} md={12} lg={12} className={classes.col0} >
+          <FontAwesomeIcon className={classes.icons} style={{ color: '#e34c26' }} icon={faHtml5} />
+          <FontAwesomeIcon className={classes.icons} style={{ color: 'blue' }} icon={faCss3} />
+          <FontAwesomeIcon className={classes.icons} style={{ color: 'green' }} icon={faNodeJs} />
+          <FontAwesomeIcon className={classes.icons} style={{ color: '#F0DB4F' }} icon={faJs} />
+          <FontAwesomeIcon className={classes.icons} style={{ color: '#61DBFB' }} icon={faReact} />
+          <FontAwesomeIcon className={classes.icons} style={{ color: '#F1502F' }} icon={faGitAlt} />
+          <FontAwesomeIcon className={classes.icons} style={{ color: '#FF9900' }} icon={faAws} />
+          <FontAwesomeIcon className={classes.icons} style={{ color: '#F0DB4F' }} icon={faPython} />
+          <Image className={classes.icons} src={mongo} height={208} width={110} />
+          <Image className={classes.icons} src={vsc} height={208} width={110} />
+          <Image className={classes.icons} src={mysql} height={208} width={220} />
+
+        </Grid>
+
+
+
+        <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }} >
+          <Link href="https://beecoiner-app.herokuapp.com/" >
+            <a target="_blank" style={{ display: 'flex', width: '100%' }}>
+              <Card style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }} className={classes.CardStyles} styles={{ height: '100%' }}>
+
+
+
+                <CardContent >
+                  <div className={classes.img}><Image
+                    src={bee}
+                    height={250}
+                    width={250}
+                    layout='responsive'
+                  />
+                  </div>
+
+                  <Typography gutterBottom variant="h5" component="div" className={classes.text}>
+                    Beecoiner
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
+                    An awesomic cryptocurrency searching App!
+                  </Typography>
+
+                </CardContent>
+                <CardActions>
+                  <Button className={classes.button}><Link href="https://beecoiner-app.herokuapp.com/"><a target="_blank">Enter this Site!</a></Link></Button>
+
+                </CardActions>
+              </Card>
+            </a>
+          </Link>
+
+
+        </Grid>
+        <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }}>
+          <Link href="https://joker-dad.herokuapp.com/">
+            <a target="_blank" style={{ display: 'flex', width: '100%' }}>
+              <Card style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }} className={classes.CardStyles} styles={{ height: '100%' }} >
+
+
+
+                <CardContent>
+                  <div className={classes.img}><Image className={classes.img}
+                    src={emoji}
+                    height={250}
+                    width={250}
+                    layout='responsive'
+
+                  />
+                  </div>
+
+                  <Typography gutterBottom variant="h5" component="div" className={classes.text}>
+                    Dad's Jokes
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
+                    A hilarious dad's jokes fetching App!
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button className={classes.button}><Link href="https://joker-dad.herokuapp.com/"><a target="_blank">Enter this Site!</a></Link></Button>
+                </CardActions>
+              </Card>
+            </a>
+          </Link>
+
+
+        </Grid>
+
+
+        <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }}>
+          <Link href="https://ultimate-todo-list-app.herokuapp.com/">
+            <a target="_blank" style={{ display: 'flex', width: '100%' }}>
+              <Card style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }} className={classes.CardStyles} styles={{ height: '100%' }}>
+
+
+
+                <CardContent>
+                  <div className={classes.img}>
+
+                    <Image className={classes.img}
+                      src={check}
+                      height={200}
+                      width={200}
+                      layout='responsive'
+
+                    />
+                  </div>
+                  <Typography gutterBottom variant="h5" component="div" className={classes.text}>
+                    Ultimate To-do List
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
+                    The final To-do list App!
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button className={classes.button}><Link href="https://ultimate-todo-list-app.herokuapp.com/"><a target="_blank">Enter this Site!</a></Link></Button>
+                </CardActions>
+              </Card>
+            </a>
+          </Link>
+
+        </Grid>
+
+        <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }}>
+          <Link href="https://palettecreator.vercel.app/">
+            <a target="_blank" style={{ display: 'flex', width: '100%' }}>
+              <Card style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }} className={classes.CardStyles} styles={{ height: '100%' }}>
+
+
+
+                <CardContent>
+                  <div className={classes.img}>
+
+                    <Image className={classes.img}
+                      src={palette}
+                      height={200}
+                      width={200}
+                      layout='responsive'
+
+                    />
+                  </div>
+                  <Typography gutterBottom variant="h5" component="div" className={classes.text}>
+                    Awesomic Palette Creator
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
+                    An amazing Color Palette Creator App!
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button className={classes.button}><Link href="https://palettecreator.vercel.app/"><a target="_blank">Enter this Site!</a></Link></Button>
+                </CardActions>
+              </Card>
+            </a>
+          </Link>
+
+        </Grid>
+
+        <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }}>
+          <Link href="https://campseeker.herokuapp.com/">
+            <a target="_blank" style={{ display: 'flex', width: '100%' }}>
+              <Card style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }} className={classes.CardStyles} styles={{ height: '100%' }}>
+
+
+
+                <CardContent>
+                  <div className={classes.img}>
+
+                    <Image className={classes.img}
+                      src={tent}
+                      height={200}
+                      width={200}
+                      layout='responsive'
+
+                    />
+                  </div>
+                  <Typography gutterBottom variant="h5" component="div" className={classes.text}>
+                    CampSeeker
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
+                    A Full-stack campsite hub App!
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button className={classes.button}><Link href="https://campseeker.herokuapp.com/"><a target="_blank">Enter this Site!</a></Link></Button>
+                </CardActions>
+              </Card>
+            </a>
+          </Link>
+
+        </Grid>
+
 
       </Grid>
-
-
-
-      <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{display: 'flex'}} >
-      <Link href="https://beecoiner-app.herokuapp.com/" >
-        <a target="_blank" style={{display:'flex', width:'100%'}}>
-        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} styles={{ height: '100%' }}>
-        
-         
-        
-        <CardContent >
-           <div className={classes.img}><Image
-          src={bee}
-          height={250}
-          width={250}
-          layout='responsive'
-          />
-          </div>
-         
-          <Typography gutterBottom variant="h5" component="div" className={classes.text}>
-            Beecoiner
-          </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{textAlign:'center'}}>
-            An awesomic cryptocurrency searching App!
-          </Typography>
-        
-        </CardContent>
-        <CardActions>
-        <Button className={classes.button}><Link href="https://beecoiner-app.herokuapp.com/"><a target="_blank">Enter this Site!</a></Link></Button>
-        
-        </CardActions>
-        </Card>
-        </a>
-        </Link>
-      
-        
-      </Grid>
-      <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{display: 'flex'}}>
-        <Link href="https://joker-dad.herokuapp.com/">
-          <a target="_blank" style={{display:'flex', width:'100%'}}>
-        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} styles={{ height: '100%' }} >
-        
-         
-        
-        <CardContent>
-        <div className={classes.img}><Image className={classes.img}
-          src={emoji}
-          height={250}
-          width={250}
-          layout='responsive'
-
-          />
-        </div>
-        
-          <Typography gutterBottom variant="h5" component="div" className={classes.text}>
-            Dad's Jokes
-          </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{textAlign:'center'}}>
-            A hilarious dad's jokes fetching App!
-          </Typography>
-        </CardContent>
-        <CardActions>
-        <Button className={classes.button}><Link href="https://joker-dad.herokuapp.com/"><a target="_blank">Enter this Site!</a></Link></Button>
-        </CardActions>
-        </Card>
-        </a>
-        </Link>
-      
-        
-      </Grid>
-      
-        
-      <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{display: 'flex'}}>
-        <Link href="https://ultimate-todo-list-app.herokuapp.com/">
-          <a target="_blank" style={{display:'flex', width:'100%'}}>
-        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} styles={{ height: '100%' }}>
-        
-       
-        
-        <CardContent>
-        <div className={classes.img}>
-          
-          <Image className={classes.img}
-          src={check}
-          height={200}
-          width={200}
-          layout='responsive'
-
-          />
-        </div>
-          <Typography gutterBottom variant="h5" component="div" className={classes.text}>
-            Ultimate To-do List
-          </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{textAlign:'center'}}>
-            The final To-do list App!
-          </Typography>
-        </CardContent>
-        <CardActions>
-        <Button className={classes.button}><Link href="https://ultimate-todo-list-app.herokuapp.com/"><a target="_blank">Enter this Site!</a></Link></Button>
-        </CardActions>
-        </Card>
-        </a>
-        </Link>
-        
-      </Grid>
-
-      <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{display: 'flex'}}>
-        <Link href="https://palettecreator.vercel.app/">
-          <a target="_blank" style={{display:'flex', width:'100%'}}>
-        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} styles={{ height: '100%' }}>
-        
-       
-        
-        <CardContent>
-        <div className={classes.img}>
-          
-          <Image className={classes.img}
-          src={palette}
-          height={100}
-          width={100}
-          layout='responsive'
-
-          />
-        </div>
-          <Typography gutterBottom variant="h5" component="div" className={classes.text}>
-            Awesomic Palette Creator
-          </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{textAlign:'center'}}>
-            An amazing Color Palette Creator App!
-          </Typography>
-        </CardContent>
-        <CardActions>
-        <Button className={classes.button}><Link href="https://palettecreator.vercel.app/"><a target="_blank">Enter this Site!</a></Link></Button>
-        </CardActions>
-        </Card>
-        </a>
-        </Link>
-        
-      </Grid>
-     
-      <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{display: 'flex'}}>
-        <Link href="https://campseeker.herokuapp.com/">
-          <a target="_blank" style={{display:'flex', width:'100%'}}>
-        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column'}}className={classes.CardStyles} styles={{ height: '100%' }}>
-        
-       
-        
-        <CardContent>
-        <div className={classes.img}>
-          
-          <Image className={classes.img}
-          src={tent}
-          height={100}
-          width={100}
-          layout='responsive'
-
-          />
-        </div>
-          <Typography gutterBottom variant="h5" component="div" className={classes.text}>
-            CampSeeker
-          </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{textAlign:'center'}}>
-          A Full-stack campsite hub App!
-          </Typography>
-        </CardContent>
-        <CardActions>
-        <Button className={classes.button}><Link href="https://campseeker.herokuapp.com/"><a target="_blank">Enter this Site!</a></Link></Button>
-        </CardActions>
-        </Card>
-        </a>
-        </Link>
-        
-      </Grid>
-     
-      
-  </Grid>
-  </>
+    </>
   )
 }
