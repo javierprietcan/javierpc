@@ -261,7 +261,7 @@ export default function Home() {
         </Grid>
 
         <Grid item xs={11} sm={11} md={6} lg={5} xl={3} style={{ display: 'flex' }}>
-          <Link href="https://vercel.com/javierprietcan/todo-list/DqXwL57pKfF9Jtbrjw1VhZp3Vfyh">
+          <Link href="https://todo-list-1kg7mhe9a-javierprietcan.vercel.app/">
             <a target="_blank" style={{ display: 'flex', width: '100%' }}>
               <Card style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }} className={classes.CardStyles} styles={{ height: '100%' }}>
 
@@ -286,7 +286,7 @@ export default function Home() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button className={classes.button}><Link href="https://vercel.com/javierprietcan/todo-list/DqXwL57pKfF9Jtbrjw1VhZp3Vfyh"><a target="_blank">Enter this Site!</a></Link></Button>
+                  <Button className={classes.button}><Link href="https://todo-list-1kg7mhe9a-javierprietcan.vercel.app/"><a target="_blank">Enter this Site!</a></Link></Button>
                 </CardActions>
               </Card>
             </a>
