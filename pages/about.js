@@ -258,9 +258,9 @@ export default function About() {
       <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col2}>
       <div className='text-div'>
           <h3 className={classes.h3}>My <span style={{color:'yellow'}}>Story</span></h3>
-          <p className={classes.p}>Currently I am living and working in The Netherlands, as a Technical Author for ASML, the number one High-Tech company devoted to the creation of machines
+          <p className={classes.p}>Currently I am living and working in The Netherlands, as a Technical Consultant at ASML, the number one High-Tech company devoted to the creation of machines
           for Chip-making creation.</p>
-          <p className={classes.p}>Until March 2022 I worked as Technical Writer in the aviation field. I developed Technical documentation for aircrafts, but trust me, I have my feets on the ground!</p>
+          <p className={classes.p}>Until March 2022 I worked as Technical Consultant in the aviation field. I developed Technical documentation for aircrafts, but trust me, I have my feets on the ground!</p>
           <p className={classes.p}> Although I work with a computer as a daily basis, you might think this has nothing to do with Web Developing...and you'd be right!</p>
           <p className={classes.p}>Anyway, I have always been learning programming and developing my own apps for University projects, but especially for
           personal projects. Some years ago, I realised I'd rather work on something I really like and started to enroll in many developing courses!</p>
@@ -318,9 +318,9 @@ export default function About() {
         <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col1}>
           <div className='text-div'>
               <h3 className={classes.h3}>Work <span style={{color:'yellow'}}>Experience</span> <WorkIcon sx={{fontSize: '1.8rem',color:'black',textAlign:'center'}} /></h3>
-              <p className={classes.p}>Technical Author at ASM / WEB Eindhoven<p style={{textShadow:'none',color:'blue'}}>   March 2022 - Present</p></p>
+              <p className={classes.p}>Technical Consultant at ASM / WEB Eindhoven<p style={{textShadow:'none',color:'blue'}}>   March 2022 - Present</p></p>
                 <p className={classes.p}>Technical Author and Proofreader at ATEXIS Spain<p style={{textShadow:'none',color:'blue'}}>   March 2019 - Present</p></p>
-                <p className={classes.p}>Technical Author at ATEXIS France<p style={{textShadow:'none',color:'blue'}}>   March 2019 - July 2019</p></p>
+                <p className={classes.p}>Technical Consultant at ATEXIS France<p style={{textShadow:'none',color:'blue'}}>   March 2019 - July 2019</p></p>
                 <p className={classes.p}>GIS Technician Internship at Ferrovial Servicios (Madrid, Spain) <p style={{textShadow:'none',color:'blue'}}> June 2018 - December 2018</p></p>
          
             </div>
