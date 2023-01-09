@@ -318,8 +318,8 @@ export default function About() {
         <Grid item xs={11} sm={11} md={6} lg={6} className={classes.col1}>
           <div className='text-div'>
               <h3 className={classes.h3}>Work <span style={{color:'yellow'}}>Experience</span> <WorkIcon sx={{fontSize: '1.8rem',color:'black',textAlign:'center'}} /></h3>
-              <p className={classes.p}>Technical Consultant at ASM / WEB Eindhoven<p style={{textShadow:'none',color:'blue'}}>   March 2022 - Present</p></p>
-                <p className={classes.p}>Technical Author and Proofreader at ATEXIS Spain<p style={{textShadow:'none',color:'blue'}}>   March 2019 - Present</p></p>
+              <p className={classes.p}>Technical Consultant at ASML / WEB Eindhoven<p style={{textShadow:'none',color:'blue'}}>   March 2022 - Present</p></p>
+                <p className={classes.p}>Technical Consultant at ATEXIS Spain<p style={{textShadow:'none',color:'blue'}}>   March 2019 - Present</p></p>
                 <p className={classes.p}>Technical Consultant at ATEXIS France<p style={{textShadow:'none',color:'blue'}}>   March 2019 - July 2019</p></p>
                 <p className={classes.p}>GIS Technician Internship at Ferrovial Servicios (Madrid, Spain) <p style={{textShadow:'none',color:'blue'}}> June 2018 - December 2018</p></p>
          
